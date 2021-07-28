@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* nav-bar starts here */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #14b1fa;
+}
+header h1{
+    font-size: 30px;
+    position: absolute;
+    padding: 3px;
+    float: inherit;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 10px;
+    color: #0d91c5;
+    padding-bottom: 5px;
+    
+}
+header span{
+    color: #ffffff;
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+
+}
+header a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2vw;
+    padding-bottom: 5px;
+   
+}
+/* nav-bar end here */
+
+/* Top frame starts from here */
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 27px;
+}
+h3{
+    font-size: 17px;
+}
+.highlighter{
+    color: #14b1fa;
+}
+
+.top-frame{
+    display: flex;
+    margin-bottom: 150px;
+   
+}
+/* Top frame ends here */
+
+/* About me starts  */
+.about-me{
+    display: flex;
+    background-image: url(images/background/Frame\ 57.jpg);
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+ img{
+    width: 80%;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+.button {
+    text-decoration: none;
+    border-radius:25px;
+    color: rgb(235, 228, 228);
+    padding: 10px 15px;
+    background-image:linear-gradient(#14b1fa,skyblue);
+    
+}
+/* Recipe starts from here */
+.recipe{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.card{
+    width: 30%;
+    margin-left: 2%;
+    text-align: center;
+    padding: 40px 8px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 10px gray;
+    
+}
+/* Recipe ends here */
+
+/* Social bar starts from here */
+.status-bar{
+    display: flex;
+    padding: 0px 50px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 10px gray;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 100px;
+}
+.social-media{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    margin-left: 13.9%;
+    
+    
+}
+#youtube-subs h1 {
+color: rgb(79, 156, 6);
+}
+#youtube-subs p {
+    color: rgb(79, 156, 6);
+    }
+    #insta-followers h1{
+        color: rgb(187, 127, 14);
+
+    }
+    #insta-followers p{
+        color: rgb(187, 127, 14);
+
+    }
+    #drib-like{
+        color: rgb(245, 153, 49);
+    }
+    /* Social bar ends here */
+
+    /* Footer starts here */
+    footer{
+        height: 300px;
+       background-color: black;
+       text-align: center;
+    }
+    input{
+        border: 2px solid;
+    }
+    footer h1{
+        color: aliceblue;
+        font-size: 24px;
+        margin-right: 4%;
+        padding-top: 25px;
+    }
+    .footter-adress{
+        color: aliceblue;
+        float: left;
+        text-align:end;
+    }
+    #footer-button{
+        text-decoration: none;
+        border-radius:6px;
+        color: rgb(235, 228, 228);
+        padding: 10px 15px;
+        background-image:linear-gradient(#14b1fa,skyblue);
+    }
+    #sign-up-btn{
+        height: 35px;
+       
+    }
+    /* Footer ends here */
